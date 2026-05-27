@@ -1,0 +1,88 @@
+
+/* --- AZ EGÉSZ OLDAL HÁTTERE ÉS BETŰTÍPUSA --- */
+body {
+  background-color: #c8f0c8; 
+  font-family: Arial;
+}
+
+
+/* --- FŐCÍM (csak egy van az oldalon, a legtetején) --- */
+h1 {
+  color: green;
+  text-align: center;
+  font-size: 40px;
+}
+
+
+/* --- ALCÍMEK (minden dobozban a cím pl. "Rólam", "Szolgáltatások") --- */
+h2 {
+  color: darkgreen;
+}
+
+
+/* --- SIMA SZÖVEG BEKEZDÉSEK --- */
+p {
+  font-size: 16px;
+}
+
+
+/* --- AZ "ELKÜLDENI" GOMB KINÉZETE --- */
+.gomb {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border: none;     
+  font-size: 16px;
+  cursor: pointer;  
+}
+
+/* --- GOMB AMIKOR RÁVISZED AZ EGERET --- */
+.gomb:hover {
+  background-color: darkgreen; 
+}
+
+
+/* --- A FEHÉR DOBOZOK (minden szekció egy ilyen doboz) --- */
+.doboz {
+  background-color: white;
+  padding: 20px;       
+  margin: 20px;        
+  border: 2px solid green; 
+}
+
+
+/* --- TÁBLÁZAT (a szolgáltatások listájánál) --- */
+table {
+  border: 1px solid black;
+  width: 80%;        
+  margin: 0 auto;    
+}
+
+/* --- TÁBLÁZAT CELLÁK --- */
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+/* --- TÁBLÁZAT FEJLÉC CELLÁK (az első sor: "Szolgáltatás neve", "Időtartam", "Ár") --- */
+th {
+  background-color: green;
+  color: white;
+  padding: 8px;
+}
+
+/* --- A NAVIGÁCIÓS SÁV (a zöld menü az oldal tetején) --- */
+#nav {
+  background-color: darkgreen;
+  padding: 10px;
+  text-align: center;
+}
+
+/* --- A NAVIGÁCIÓS SÁVON BELÜLI LINKEK --- */
+#nav a {
+  color: white;         
+  margin: 10px;          
+  text-decoration: none; 
+  font-size: 18px;
+}
